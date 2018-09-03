@@ -1,0 +1,49 @@
+{
+  "author": {
+    "name": "Mattia Della Mina",
+    "email": "mattia.dellamina@gmail.com",
+    "url": "http://mattiadellamina.it"
+  },
+  "name": "@dellamina/gitignore-cli",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Create .gitignore has never been so easy",
+  "keywords": [
+    "git",
+    "gitignore",
+    "cli",
+    "generator",
+    "api"
+  ],
+  "repository": "dellamina/gitignore-cli",
+  "homepage": "https://github.com/dellamina/gitignore-cli#readme",
+  "main": "lib/gi.js",
+  "bin": {
+    "gi": "dist/gi.js"
+  },
+  "scripts": {
+    "build": "babel lib -d dist",
+    "watch": "npm run build -- -w",
+    "start": "node dist/gi.js",
+    "prepare": "npm run build",
+    "link": "npm run build && npm link",
+    "test": "mocha --compilers js:babel-register"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-runtime": "^6.26.0",
+    "chalk": "^2.4.1",
+    "commander": "^2.17.1",
+    "figlet": "^1.2.0",
+    "inquirer": "^6.2.0",
+    "inquirer-select-directory": "^1.2.0",
+    "ora": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "mocha": "^5.2.0"
+  }
+}
