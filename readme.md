@@ -2,12 +2,12 @@
 
 ---
 
-![Build](https://img.shields.io/circleci/project/github/dellamina/gitignore-cli/master.svg)
-![Version](https://img.shields.io/npm/v/@dellamina/gitignore-cli.svg)
-![Dependencies](https://img.shields.io/david/dellamina/gitignore-cli.svg)
+[![Build](https://img.shields.io/circleci/project/github/dellamina/gitignore-cli/master.svg)](https://circleci.com/gh/dellamina/workflows/gitignore-cli/tree/master)
+[![Version](https://img.shields.io/npm/v/@dellamina/gitignore-cli.svg)](https://www.npmjs.com/package/@dellamina/gitignore-cli)
+[![Dependencies](https://img.shields.io/david/dellamina/gitignore-cli.svg)](https://david-dm.org/dellamina/gitignore-cli)
 ![Size](https://img.shields.io/bundlephobia/minzip/@dellamina/gitignore-cli.svg)
-![License](https://img.shields.io/github/license/dellamina/gitignore-cli.svg)
-![Website](https://img.shields.io/website-up-down-green-red/https/gitignore.netlify.com.svg?label=website)
+[![License](https://img.shields.io/github/license/dellamina/gitignore-cli.svg)](https://github.com/dellamina/gitignore-cli/blob/master/license)
+[![Website](https://img.shields.io/website-up-down-green-red/https/gitignore.netlify.com.svg?label=website)](https://gitignore.netlify.com/)
 
 
 ## Creating .gitignore has never been so easy
