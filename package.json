@@ -5,7 +5,7 @@
     "url": "http://mattiadellamina.it"
   },
   "name": "@dellamina/gitignore-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "description": "Create .gitignore has never been so easy",
   "keywords": [
